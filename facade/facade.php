@@ -25,7 +25,6 @@ class Facade {
         }
     }
 }
-Contact GitHub API Training Shop Blog About
 
 
 
