@@ -1,7 +1,5 @@
 <?php  
-require_once 'Publish.php';
-require_once 'Guide.php';
-require_once 'Reserve.php';
+
 class Facade {
     public function __construct($handle)
     {

@@ -1,6 +1,6 @@
 
 <?php
-class Book
+class BookBuilder
 {
     private $title;
     private $author;
@@ -11,15 +11,15 @@ class Book
         $this->author;
         $this->content;
     }
-    public function getTitle()
+    public function getTitle():BookBuilder
     {
         return $this->title;
     }
-    public function getAuthor()
+    public function getAuthor():BookBuilder
     {
         return $this->author;
     }
-    public function getContent()
+    public function getContent():BookBuilder
     {
         return $this->content;
     }
